@@ -1,10 +1,12 @@
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MODULE_COMPONENTS, MODULE_ROUTES } from './dashboard.routes';
 
 @NgModule({
     imports: [
-        RouterModule.forChild(MODULE_ROUTES)
+        RouterModule.forChild(MODULE_ROUTES) ,
+        BrowserModule
     ],
     declarations: [ MODULE_COMPONENTS ]
 })

@@ -39,7 +39,25 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                    
+
+                                     <tr class="clickable" *ngFor="let item of table; let i =index" onclick="demo.showNotification('top','center')" >
+                                        <td>{{i}}</td>
+                                        <td>{{item.document}}</td>
+                                        <td>{{item.transaction}}</td>
+                                        <td>{{item.timestamp}}</td>
+                                        
+                                        
+                                             <!-- <button class="btn btn-danger btn-block" onclick="demo.showNotification('top','center')">Top Center</button> -->
+                                         
+                                     </tr>
+
+
+
+
+
+
+                                        <!-- <tr>
                                             <td>1</td>
                                             <td>27ac8006c683714109fb606e30f3ee3c3b0cf64b9ef989874a85cbafbad9ed91</td>
                                             <td>$36,738</td>
@@ -62,8 +80,8 @@
                                             <td>4b9d687ac625690fd026ed4b236dad1cac90ef69e7ad256cc42766a065b50026</td>
                                             <td>$38,735</td>
                                             <td>Korea, South</td>
-                                        </tr>
-                                    </tbody>
+                                        </tr> -->
+                                    </tbody> 
                                 </table>
                             </div>
                         </div>
