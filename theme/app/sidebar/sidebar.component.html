@@ -1,0 +1,23 @@
+<div class="logo">
+    <a  class="simple-text">
+
+        Data Repository System
+    </a>
+</div>
+<div class="sidebar-wrapper">
+    <div class="nav-container">
+        <ul class="nav">
+            <li *ngFor="let menuItem of menuItems" routerLinkActive="active" class="{{menuItem.class}}">
+                <a  [routerLink]="[menuItem.path]">
+                    <i class="material-icons">{{menuItem.icon}}</i>
+                    <p>{{menuItem.title}}</p>
+                    <!-- <li><a [routerLink]="['menuitem']">{{menu:title}} </a>
+                    </li> -->
+                </a>
+
+            </li>
+            
+        </ul>
+        
+    </div>
+</div>
