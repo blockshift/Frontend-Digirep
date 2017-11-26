@@ -1,5 +1,6 @@
 import { Hash } from './table';
 import { Component , trigger , state , style , transition , animate } from '@angular/core';
+;
 
 
 @Component({

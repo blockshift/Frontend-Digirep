@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var table_1 = require('./table');
 var core_1 = require('@angular/core');
+;
 var TableComponent = (function () {
     function TableComponent() {
         this.table = [

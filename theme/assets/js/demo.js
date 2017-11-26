@@ -165,8 +165,9 @@ demo = {
     	color = Math.floor((Math.random() * 4) + 1);
 
     	$.notify({
-        	icon: "notifications",
-        	message: "Welcome to <b>Material Dashboard</b> - a beautiful girl for every web developer."
+        
+            message: "Transaction Hash :  "
+                        
 
         },{
             type: type[color],
