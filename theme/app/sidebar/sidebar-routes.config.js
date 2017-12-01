@@ -6,7 +6,7 @@ exports.ROUTES = [
     //{ path: 'typography', title: 'Typography',  icon:'library_books', class: '' },
     // { path: 'icons', title: 'Icons',  icon:'bubble_chart', class: '' },
     //{ path: 'maps', title: 'Maps',  icon:'location_on', class: '' },
-   // { path: 'notifications', title: 'Notifications', icon: 'notifications', class: '' },
+    //{ path: 'notifications', title: 'Notifications', icon: 'notifications', class: '' },
 ];
 // export const PAGES_MENU = [
 //     {
