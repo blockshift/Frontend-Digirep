@@ -3,10 +3,6 @@ exports.ROUTES = [
     { path: 'dashboard', title: 'DashBoard', icon: 'dashboard', class: '' },
     { path: 'user', icon: 'edit', title: 'Enroll', class: '' },
     { path: 'table', title: 'Public Blockchain', icon: 'content_paste', class: '' },
-    //{ path: 'typography', title: 'Typography',  icon:'library_books', class: '' },
-    // { path: 'icons', title: 'Icons',  icon:'bubble_chart', class: '' },
-    //{ path: 'maps', title: 'Maps',  icon:'location_on', class: '' },
-    { path: 'notifications', title: 'Notifications', icon: 'notifications', class: '' },
 ];
 // export const PAGES_MENU = [
 //     {
